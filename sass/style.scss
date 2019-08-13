@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    nav {
+        display: flex;
+        width: 100vw;
+        text-align: center;
+        background: #000;
+        .nav-logo {
+            padding: 18px 18px 18px 40px;
+            img {
+                width: 34px;
+                height: 34px;
+            }
+        }
+        .hamburger-menu {
+            border: 1px solid rgba(255,255,255,.1);
+            border-radius: 20%;
+            margin-top: auto;
+            margin-bottom: auto;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            div {
+                width: 22px;
+                height: 2px;
+                background-color: white;
+                opacity: 0.65;
+                margin: 6px 12px;
+            }
+        }
+        button {
+            width: 88px;
+            height: 34px;
+            font-size: 16px;
+            color: white;
+            background-color: rgb(12, 87, 251);
+            border-color: rgb(12, 87, 251);
+            border-radius: 8px;
+            margin-top: auto;
+            margin-bottom: auto;
+            position: absolute;
+            top: 20px;
+            right: 90px;
+            &:hover {
+                background-color: rgba(12, 87, 251,.8);
+                border-color: rgba(12, 87, 251,.8);
+            }
+        }
+    }
+}
